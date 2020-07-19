@@ -1,0 +1,24 @@
+
+
+/*=====Food Menu Section====*/
+.food-menu{
+	h2{
+    
+	padding-bottom: 20px;
+	}
+}
+.menu {
+	list-style: none;
+	&_item{
+		display: flex;
+		justify-content: space-between;
+		color: #444;
+		line-height: 40px;
+
+	}
+
+	&_price{
+		color: $dark-green;
+	}
+}
+

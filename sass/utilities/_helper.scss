@@ -1,0 +1,21 @@
+/*=====Basic Styles====*/
+
+
+.color-green{
+	color: $dark-green;
+}
+
+.line-space{
+	line-height: 35px;
+}
+.margin-bottom{
+	margin-bottom: 20px;
+}
+.list-inline{
+	list-style-type: none;
+	display: flex;
+
+	li{
+		margin-right: 20px;
+	}
+}
